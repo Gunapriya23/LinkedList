@@ -1,0 +1,13 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        LinkedList<String> l=new LinkedList<>();
+        l.add("alice");
+        l.add("jey");
+        l.add("moks");
+        l.add("maha");
+        System.out.println("The elements are: "+l);
+        l.addLast("Guna");
+        System.out.println(l);
+    }
+}
